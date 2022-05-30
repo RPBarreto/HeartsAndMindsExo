@@ -32,7 +32,7 @@ if (btc_debug_log) then {
 
 private _pos = getPos _ied;
 deleteVehicle _ied;
-"Bo_GBU12_LGB_MI10" createVehicle _pos;
+"M_Mo_82mm_AT_LG" createVehicle _pos;
 deleteVehicle _wreck;
 
 [_pos] call btc_deaf_fnc_earringing;
