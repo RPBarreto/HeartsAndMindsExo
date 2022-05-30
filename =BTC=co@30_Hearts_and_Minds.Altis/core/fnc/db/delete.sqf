@@ -23,7 +23,7 @@ Author:
 
 params [
     ["_showHint", true, [true]],
-    ["_name", worldName, [""]]
+    ["_name", "PrivateBala", [""]]
 ];
 
 profileNamespace setVariable [format ["btc_hm_%1_version", _name], nil];
