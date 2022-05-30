@@ -37,7 +37,8 @@ private _protection = 0;
 
 if (
     [
-        "G_Respirator_base_F"
+        "G_Respirator_base_F",
+        "SE_Alice_Backpack" 
     ] findIf {_googles isKindOf [_x, _cfgGlasses]} > -1
 ) then {
     _protection = _protection + selectRandom [0.15, 0.3]; // Less protection than respirator
@@ -52,7 +53,9 @@ if (
             "SE_M17",
             "Hamster_PS",
             "SE_S10",
-            "MK502"
+            "MK502",
+            "CAU_G_CBRN_s10_blk",
+            "CAU_G_CBRN_s10_mc"
         ] findIf {_googles isKindOf [_x, _cfgGlasses]} > -1
     ) then {
         _protection = _protection + 0.3;
