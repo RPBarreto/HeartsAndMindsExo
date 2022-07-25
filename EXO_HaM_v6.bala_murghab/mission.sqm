@@ -20,18 +20,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=755;
+		nextID=765;
 	};
 	class Camera
 	{
-		pos[]={20014.98,220.8315,18754.926};
-		dir[]={-0.2550118,-0.18603827,-0.94892019};
-		up[]={-0.048285708,0.98253864,-0.17967606};
-		aside[]={-0.96577215,7.5553544e-008,0.25954285};
+		pos[]={19963.201,249.18628,18564.516};
+		dir[]={0.3749809,-0.23437417,-0.89693362};
+		up[]={0.090403676,0.97214842,-0.2162406};
+		aside[]={-0.92263049,-7.6950528e-008,-0.38572508};
 	};
 };
 binarizationWanted=0;
-sourceName="EXO_HaM_v5";
+sourceName="EXO_HaM_v6";
 addons[]=
 {
 	"A3_Ui_F",
@@ -31085,24 +31085,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -31117,6 +31099,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -133555,7 +133555,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=150;
+							value=290;
 						};
 					};
 				};
